@@ -1,58 +1,58 @@
 // Book DTOs
-interface BookSummaryDto {
+export interface BookSummaryDto {
   id: number
   title: string
   author: string
   averageRating: number
 }
-interface BookDetailDto {
+export interface BookDetailDto {
   id: number
   title: string
   author: string
   reviews: ReviewDetailDto[]
   averageRating: number
 }
-interface CreateBookDto {
+export interface CreateBookDto {
   title: string
   author: string
 }
 // User DTOs
-interface UpdateUserDto {
+export interface UpdateUserDto {
   name: string
   email: string
 }
-interface UserDetailDto {
+export interface UserDetailDto {
   id: number
   name: string
   email: string
   reviews: ReviewDetailDto[]
   favourites: FavouriteDetailDto[]
 }
-interface CreateUserDto {
+export interface CreateUserDto {
   name: string
   email: string
 }
 // Review DTOs
-interface ReviewDetailDto {
+export interface ReviewDetailDto {
   id: number
   rating: number
   comment: string
   userName: string
   bookTitle: string
 }
-interface CreateReviewDto {
+export interface CreateReviewDto {
   rating: number
   comment: string
   userId: number
   bookId: number
 }
 // Favourite DTOs
-interface FavouriteDetailDto {
+export interface FavouriteDetailDto {
   id: number
   userName: string
   bookSummary: BookSummaryDto
 }
-interface CreateFavouriteDto {
+export interface CreateFavouriteDto {
   userId: number
   bookId: number
 }
