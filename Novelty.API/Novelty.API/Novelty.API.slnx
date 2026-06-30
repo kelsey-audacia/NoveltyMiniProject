@@ -1,0 +1,8 @@
+<Solution>
+  <Project Path="../BookApp.Domain/Novelty.Domain.csproj" />
+  <Project Path="../Novelty.DataAccess/Novelty.DataAccess.csproj" />
+  <Project Path="../Novelty.DTOs/Novelty.DTOs.csproj" />
+  <Project Path="../Novelty.Services/Novelty.Services.csproj" />
+  <Project Path="../Novelty.Tests/Novelty.Tests.csproj" Id="8e366479-61e5-4512-8ded-96be47b0b6b4" />
+  <Project Path="Novelty.API.csproj" />
+</Solution>
